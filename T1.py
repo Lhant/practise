@@ -33,17 +33,18 @@ def balancePoint(fx: str):
                 returnList.append('x：' + str(item) + 'は平衡点じゃない')
     return returnList
 
-
-# x·=x^2-1的の平衡点を求める
-x = sp.symbols("x")
-# t = x ** 2 + 1
-# t = (x - 4) * (x - 3) * (x - 2) * (x - 1)
-# t = ln(x)
-# t = exp(x)-2000
-t = sin(x)
-p = plot(t, show=False)
-p.ylabel = 'x·'
-# p.title = 'x·=x^3+1'
-p[0].line_color = 'r'
-p.show()
-print(balancePoint(t))
+if __name__ == '__main__':
+    # x·=x^2-1的の平衡点を求める
+    x = sp.symbols("x")
+    # t = x ** 2 + 1
+    # t = (x - 4) * (x - 3) * (x - 2) * (x - 1)
+    # t = ln(x)
+    # t = exp(x)-2000
+    t = sin(x)
+    p = plot(t, show=False)
+    p.ylabel = 'x·'
+    # p.title = 'x·=x^3+1'
+    p[0].line_color = 'r'
+    print(balancePoint(t))
+    p.show()
+    
