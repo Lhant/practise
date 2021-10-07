@@ -28,7 +28,11 @@ def balancePoint(fx: str):
         # 判断非复数
         if foo(item):
             if fx1.subs(x, item) < 0:
-                returnList.append('x：' + str(item) + 'は平衡点')
+                returnList.append('x：' + str(item) + 'は完全安定平衡点')
+            elif fx1.subs(x, item) == 0:
+                returnList.append('x：' + str(item) + 'は半安定平衡点')
+            elif fx1.subs(x, item) > 0:
+                returnList.append('x：' + str(item) + 'は完全不安定平衡点')
             else:
                 returnList.append('x：' + str(item) + 'は平衡点じゃない')
     return returnList
@@ -37,10 +41,10 @@ if __name__ == '__main__':
     # x·=x^2-1的の平衡点を求める
     x = sp.symbols("x")
     # t = x ** 2 + 1
-    # t = (x - 4) * (x - 3) * (x - 2) * (x - 1)
+    t = (x - 4) * (x - 3) * (x - 2) * (x - 1)
     # t = ln(x)
     # t = exp(x)-2000
-    t = sin(x)
+    # t = sin(x)
     p = plot(t, show=False)
     p.ylabel = 'x·'
     # p.title = 'x·=x^3+1'
