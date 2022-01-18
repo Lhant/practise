@@ -40,6 +40,7 @@ if __name__ == '__main__':
     fperiod = 2 * np.pi
     duration = data['period'] * fperiod
     x0 = data['x0']
+    i = 0
     while True:
         print("Begin with k=%f,B0=%f,B=%f" % tuple(data['params']))
         print("Begin with x=", x0)
@@ -70,5 +71,10 @@ if __name__ == '__main__':
         x0 = x0 - h[0:2]
         data['params'][2] = data['params'][2] - h[2]
         print(x0, data['params'][2])
+        i += 1
         if abs(h[2]) < 1e-8:
+            print('--------------------End--------------------')
+            print('i:%d' % i)
+            print("k=%f,B0=%f,B=%f" % tuple(data['params']))
+            print("x=", x0)
             break
