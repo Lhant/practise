@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap-grid.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap-reboot.min.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery-3.6.0.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script type="text/javascript">
+        function postData() {
+            $.ajax({
+                type: "post",//方法类型
+                {#dataType: "json",//预期服务器返回的数据类型#}
+                url: "/getTest2Data" ,//url
+                data: $('#form1').serialize(),
+                success: function (result) {
+                   $("img").attr("src",result.img_url);
+                },
+                error : function() {
+                    alert("error！");
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-6 column">
+			<h3>
+				dx/dt=ax-x**2 <br><br>
+                dy/dt=-y
+			</h3>
+
+
+			<form role="form" id="form1">
+				<div class="form-group">
+					 <label for="exampleInputEmail1">x</label><input type="text" class="form-control" name="x" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputPassword1">y</label><input type="text" class="form-control" name="y" />
+				</div>
+                <div class="form-group">
+					 <label for="exampleInputPassword1">a</label><input type="text" class="form-control" name="a" />
+				</div>
+				<input type="button" value="submit" onclick="postData()">
+			</form>
+            xは0より大きい数字、<br>
+            int，floatとかどちらでもOK（虚数は対応できない）
+		</div>
+
+
+		<div class="col-md-6 column">
+			<p>
+				 <em>IMG</em>
+			</p>
+            <img src="{{ img }}" alt="" id="imgTime">
+		</div>
+	</div>
+</div>
+</body>
+</html>

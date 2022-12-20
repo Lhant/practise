@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="/static/js/jquery-3.6.0.js"></script>
+        <script>
+
+            window.onload = function () {
+                getApi();
+            };
+
+            function getApi() {
+                {#setTimeout(getApi,1000);#}
+                $.ajax({
+                    url:"/getData",
+                    type:"get",
+                    {#dataType: 'json',#}
+                    {#processData:false,#}
+                    {#contentType:false,#}
+                    success:function(data){
+                            $("img").attr("src",data.img_url);
+                    },
+                    error:function(e){
+                            alert("error");
+                    }
+        })
+
+            }
+        </script>
+    </head>
+    <body>
+    <h2>实时图片</h2>
+
+    <p>
+        <img src="{{ img }}" alt="" id="imgTime">
+    </p>
+
+
+    </body>
+</html>

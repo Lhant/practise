@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee839efc-6f28-45da-8415-c9781451e2a7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="b571fb9d-9925-409c-9664-69708348482f">
+    <option name="files">
+      <option value="templates\pages\test1.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="22UZjRDJwiGBUfsgjpV3c3B6Niv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonCode\MyWeb\static\js" />
+      <recent name="E:\PythonCode\MyWeb\templates\pages" />
+      <recent name="E:\PythonCode\MyWeb" />
+      <recent name="E:\PythonCode\MyWeb\backup" />
+      <recent name="E:\PythonCode\MyWeb\pp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonCode\MyWeb\templates\pages" />
+      <recent name="E:\PythonCode\MyWeb\ODE" />
+      <recent name="E:\PythonCode\MyWeb\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="noLinTemplates.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyWeb/templates/pages/noLinTemplates.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="WEBmpld3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/WEBmpld3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pp/pp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backup/tt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="MyWeb" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyWeb" type="Python.FlaskServer">
+      <module name="MyWeb" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="JavaScript Debug.noLinTemplates.html" />
+        <item itemvalue="Python.tt" />
+        <item itemvalue="Python.pp" />
+        <item itemvalue="Python.WEBmpld3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee839efc-6f28-45da-8415-c9781451e2a7" name="Default Changelist" comment="" />
+      <created>1639894260481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639894260481</updated>
+      <workItem from="1639894291470" duration="10323000" />
+      <workItem from="1640011548129" duration="5259000" />
+      <workItem from="1640057915258" duration="10000000" />
+      <workItem from="1640088944954" duration="50000" />
+      <workItem from="1640163309290" duration="5438000" />
+      <workItem from="1640169631690" duration="712000" />
+      <workItem from="1640182075803" duration="4667000" />
+      <workItem from="1640186775005" duration="115000" />
+      <workItem from="1640231044739" duration="1418000" />
+      <workItem from="1640241526867" duration="1531000" />
+      <workItem from="1641054078103" duration="3889000" />
+      <workItem from="1641058840679" duration="553000" />
+      <workItem from="1641127382581" duration="1945000" />
+      <workItem from="1641130889563" duration="2118000" />
+      <workItem from="1641265899109" duration="9682000" />
+      <workItem from="1641691523538" duration="6892000" />
+      <workItem from="1641723229735" duration="11077000" />
+      <workItem from="1641740719734" duration="1294000" />
+      <workItem from="1641783938885" duration="3303000" />
+      <workItem from="1641820362374" duration="3419000" />
+      <workItem from="1641824049448" duration="582000" />
+      <workItem from="1641825458582" duration="352000" />
+      <workItem from="1641875652765" duration="6263000" />
+      <workItem from="1641896226340" duration="14398000" />
+      <workItem from="1641979015962" duration="9192000" />
+      <workItem from="1642041280120" duration="3904000" />
+      <workItem from="1642050130411" duration="13313000" />
+      <workItem from="1642069392599" duration="127000" />
+      <workItem from="1642094100919" duration="1171000" />
+      <workItem from="1642095590543" duration="1404000" />
+      <workItem from="1642347411643" duration="321000" />
+      <workItem from="1642422225437" duration="1190000" />
+      <workItem from="1642475369089" duration="7226000" />
+      <workItem from="1642512094692" duration="40000" />
+      <workItem from="1642856548968" duration="4937000" />
+      <workItem from="1643035827202" duration="5571000" />
+      <workItem from="1643080745423" duration="12991000" />
+      <workItem from="1643376636233" duration="1119000" />
+      <workItem from="1643377781759" duration="13470000" />
+      <workItem from="1643393720532" duration="1086000" />
+      <workItem from="1643448419316" duration="1358000" />
+      <workItem from="1643516883868" duration="1013000" />
+      <workItem from="1643528884013" duration="1547000" />
+      <workItem from="1643537765998" duration="5720000" />
+      <workItem from="1643550332534" duration="2427000" />
+      <workItem from="1643553625107" duration="2145000" />
+      <workItem from="1643636370820" duration="1430000" />
+      <workItem from="1643637993382" duration="261000" />
+      <workItem from="1643640107413" duration="934000" />
+      <workItem from="1643691579971" duration="285000" />
+      <workItem from="1643734201166" duration="240000" />
+      <workItem from="1643808839644" duration="5385000" />
+      <workItem from="1643888039508" duration="2835000" />
+      <workItem from="1643977563029" duration="97000" />
+      <workItem from="1644026063710" duration="12475000" />
+      <workItem from="1644050603829" duration="3930000" />
+      <workItem from="1644059478420" duration="1639000" />
+      <workItem from="1644065470786" duration="1396000" />
+      <workItem from="1644074649551" duration="4295000" />
+      <workItem from="1644080418843" duration="2169000" />
+      <workItem from="1644085222079" duration="2375000" />
+      <workItem from="1644116918487" duration="7008000" />
+      <workItem from="1644127508749" duration="5800000" />
+      <workItem from="1644134161992" duration="697000" />
+      <workItem from="1644198784061" duration="1861000" />
+      <workItem from="1644241908676" duration="1888000" />
+      <workItem from="1644501748400" duration="2664000" />
+      <workItem from="1644553825924" duration="1082000" />
+      <workItem from="1644580047889" duration="42000" />
+      <workItem from="1644590621874" duration="37000" />
+      <workItem from="1644892959136" duration="2988000" />
+      <workItem from="1646290518723" duration="1754000" />
+      <workItem from="1646294581985" duration="137000" />
+      <workItem from="1646313923028" duration="514000" />
+      <workItem from="1646727611834" duration="3194000" />
+      <workItem from="1646753404538" duration="1396000" />
+      <workItem from="1646832803106" duration="2656000" />
+      <workItem from="1647092244655" duration="2339000" />
+      <workItem from="1647170700080" duration="16579000" />
+      <workItem from="1647262017839" duration="1504000" />
+      <workItem from="1647332513066" duration="351000" />
+      <workItem from="1647657274933" duration="21983000" />
+      <workItem from="1647687400008" duration="11760000" />
+      <workItem from="1647700351941" duration="101000" />
+      <workItem from="1647783943000" duration="1386000" />
+      <workItem from="1647923618512" duration="1673000" />
+      <workItem from="1648530617062" duration="3068000" />
+      <workItem from="1649416360400" duration="2423000" />
+      <workItem from="1649419084929" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="119" key="#Inspections" timestamp="1649416546555">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="119" key="#Inspections/0.0.1707.920@0.0.1707.920" timestamp="1649416546555" />
+    <state x="688" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643381680136">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="688" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1643381680136" />
+    <state x="634" y="216" key="FileChooserDialogImpl" timestamp="1649419126009">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1649419126009" />
+    <state width="1663" height="222" key="GridCell.Tab.0.bottom" timestamp="1649418950736">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="222" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1649418950736" />
+    <state width="1663" height="222" key="GridCell.Tab.0.center" timestamp="1649418950736">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="222" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1649418950736" />
+    <state width="1663" height="222" key="GridCell.Tab.0.left" timestamp="1649418950736">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="222" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1649418950736" />
+    <state width="1663" height="222" key="GridCell.Tab.0.right" timestamp="1649418950736">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="222" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1649418950736" />
+    <state width="1663" height="278" key="GridCell.Tab.1.bottom" timestamp="1643393525555">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="278" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1643393525555" />
+    <state width="1663" height="278" key="GridCell.Tab.1.center" timestamp="1643393525555">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="278" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1643393525555" />
+    <state width="1663" height="278" key="GridCell.Tab.1.left" timestamp="1643393525555">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="278" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1643393525555" />
+    <state width="1663" height="278" key="GridCell.Tab.1.right" timestamp="1643393525555">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="278" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1643393525555" />
+    <state x="355" y="103" key="SettingsEditor" timestamp="1649418995740">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="355" y="103" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1649418995740" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyWeb$tt.coverage" NAME="tt Coverage Results" MODIFIED="1647679124342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backup" />
+    <SUITE FILE_PATH="coverage/MyWeb$MyWeb.coverage" NAME="MyWeb Coverage Results" MODIFIED="1640186458651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyWeb$Newton.coverage" NAME="Newton Coverage Results" MODIFIED="1642423386251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$fix2.coverage" NAME="fix2 Coverage Results" MODIFIED="1646314018145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$nonlinear.coverage" NAME="nonlinear Coverage Results" MODIFIED="1640186238637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$parsol2.coverage" NAME="parsol2 Coverage Results" MODIFIED="1642065183068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$tt3.coverage" NAME="tt3 Coverage Results" MODIFIED="1643812664800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$summary.coverage" NAME="summary Coverage Results" MODIFIED="1643554469906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ODE" />
+    <SUITE FILE_PATH="coverage/MyWeb$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1648532905462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyWeb$eg1.coverage" NAME="eg1 Coverage Results" MODIFIED="1644032281424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ODE" />
+    <SUITE FILE_PATH="coverage/MyWeb$tt4.coverage" NAME="tt4 Coverage Results" MODIFIED="1643813144122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$parsol3.coverage" NAME="parsol3 Coverage Results" MODIFIED="1642480682860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$WEBmpld3.coverage" NAME="WEBmpld3 Coverage Results" MODIFIED="1646729856884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$eg2.coverage" NAME="eg2 Coverage Results" MODIFIED="1644086044675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ODE" />
+    <SUITE FILE_PATH="coverage/MyWeb$parsol.coverage" NAME="parsol Coverage Results" MODIFIED="1642051434765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$pp.coverage" NAME="pp Coverage Results" MODIFIED="1647179177218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp" />
+    <SUITE FILE_PATH="coverage/MyWeb$tt2.coverage" NAME="tt2 Coverage Results" MODIFIED="1643037689927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
+    <SUITE FILE_PATH="coverage/MyWeb$tt2__1_.coverage" NAME="tt2 (1) Coverage Results" MODIFIED="1643691742685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ODE" />
+    <SUITE FILE_PATH="coverage/MyWeb$tt3__1_.coverage" NAME="tt3 (1) Coverage Results" MODIFIED="1644198809946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ODE" />
+  </component>
+</project>

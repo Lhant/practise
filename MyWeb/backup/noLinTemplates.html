@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap-grid.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap-reboot.min.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery-3.6.0.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="http://mpld3.github.io/js/mpld3.v0.2.js"></script>
+    <script type="text/javascript">
+        function postData() {
+            var form_data = new FormData($('#form1')[0]);
+            $.ajax({
+                type: "post",//方法类型
+                {#dataType: "json",//预期服务器返回的数据类型#}
+                url: "/getNoLinTemplatesJson" ,//url
+                data: form_data,
+                contentType: false,
+                processData: false,
+                success: function (result) {
+                    {#alert("success！");#}
+                    {#alert("wwwwwww");#}
+                    {#console(result);#}
+                },
+                error : function() {
+                    {#alert("error！");#}
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+            <div id="imgData"></div>
+{#			<iframe src="pages/www" width="90%" height="150%" align="left"></iframe>#}
+		</div>
+		<div class="col-md-4 column">
+			<form role="form" id = 'form1'>
+				<div class="form-group">
+					 <label for="exampleInputFile">jsonFile</label><input type="file" name="jf" />
+					<p class="help-block">
+                        jsonFileをアップしてください。<br>
+                        #jsonFileの'.dic'を全部削除してください。<br>
+					</p>
+				</div>
+				<button type="submit" class="btn btn-default" onclick="postData()">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+    <script type="text/javascript">
+        var figureId = "imgData";
+        var json01 = {{result.single_chart.json|safe}};
+        console.log(json01)
+        mpld3.draw_figure(figureId, json01);
+    </script>
+</body>
+</html>

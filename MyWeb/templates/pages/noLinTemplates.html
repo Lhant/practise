@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="{{ url_for('static',filename='/layui/layui.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static',filename='/layui/css/layui.css') }}">
+    <script src="{{ url_for('static',filename='js/jquery-3.6.0.js') }}"></script>
+<!--     <script src="{{ url_for('static',filename='js/require.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/d3.v3.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/mpld3.v0.2.js') }}"></script> -->
+{#    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>#}
+{#	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>#}
+{#	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>#}
+{#	<script type="text/javascript" src="http://mpld3.github.io/js/mpld3.v0.2.js"></script>#}
+
+</head>
+<body>
+<div class="layui-container">
+  <div class="layui-row">
+    <div class="layui-col-md8">
+        IMG
+      <div id="imgData"></div>
+    </div>
+    <div class="layui-col-md4">
+
+      <form class="layui-form" id="form1">
+      <textarea name="jsonData" required lay-verify="required" placeholder="JSONの内容を入力してください" class="layui-textarea" style="height: 400px"></textarea>
+      <button type="button" class="layui-btn" onclick="postData()">アップデート</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+        function postData() {
+            $.ajax({
+                type: "post",//方法类型
+                {#dataType: "json",//预期服务器返回的数据类型#}
+                url: "/getNoLinTemplatesJson" ,//url
+                data: $('#form1').serialize(),
+                success: function (result) {
+                    {#console.log(result);#}
+                    $('#imgData').html(result);
+                },
+                error : function() {
+                    {#alert("error！");#}
+                }
+            });
+        }
+    </script>
+</html>
