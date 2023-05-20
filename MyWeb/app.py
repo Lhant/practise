@@ -72,7 +72,8 @@ def getTest2Data():
 
 @app.route('/getNoLinTemplatesJson', methods=['POST'])
 def getNoLinTemplatesJson():
-    jsonStr = request.form.get('jsonData').replace('.dic', '')
+    jsonStr = request.form.get('jsonData').replace('.dict', '').replace('.dic', '')
+    #jsonData = json.loads(jsonStr)
     jsonData = json.loads(jsonStr)
     figHtml = pp.main(jsonData)
     return figHtml

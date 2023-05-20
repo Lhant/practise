@@ -1,0 +1,26 @@
+{
+"_comment": "This is a samle setting file",
+
+"func": [ "x[1]", 
+		"-data.dic['params'][0] * x[1] - x[0]**3 + data.dic['params'][1] + data.dic['params'][2] * cos(t)"
+	],
+
+"xrange": [ -1, 1],
+"yrange": [ -1, 1],
+"alpha": 0.4,
+
+"params":	[0.2, 0.02, -0.14850],
+"x0":	[ 0.38738843 , -0.04351234 ],
+
+"dparams":	[0.01, 0.01, 0.01],
+
+"eps":	0.00001,
+"errors": 0.0000001,
+"explosion":	100,
+"period":	1,
+"tick":	0.01,
+"ite_max":	10,
+"extrap":	2,
+"increment_param": 2,
+"variable_param": 0
+}
